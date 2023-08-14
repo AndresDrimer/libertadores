@@ -14,7 +14,7 @@ export default async function ServerPage() {
 
     return (
         <section className="flex flex-col gap-6">
-            <Image src={"/background-logo.jpg"} fill objectFit="contain" alt="bck" className="z-[-10]bg-local"/>
+           
             <UserCard user={session?.user} pagetype={"Server"} />
         </section>
     )

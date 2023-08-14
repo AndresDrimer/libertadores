@@ -24,12 +24,12 @@ export const options: NextAuthOptions = {
                 username: {
                     label: "Username:",
                     type: "text",
-                    placeholder: "nombre-de-usuario"
+                   
                 },
                 password: {
                     label: "Password:",
                     type: "password",
-                    placeholder: "tu-password"
+                   
                 }
             },
             async authorize(credentials) {

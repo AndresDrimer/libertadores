@@ -9,7 +9,7 @@ type Props = {
 
 export default function Card({ user, pagetype }: Props) {
 
-    //console.log(user)
+    console.log(user)
 
     const greeting = user?.name ? (
         <div className="flex items-center p-6 bg-white rounded-lg font-bold text-2xl text-black">
